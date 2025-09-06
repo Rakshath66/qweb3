@@ -98,9 +98,9 @@ const ReviewerSection = () => {
                         <div className="absolute inset-0 rounded-xl bg-quentlex-gold/20 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-500 animate-pulse"></div>
                         
                         {/* Verification badge */}
-                        <div className="absolute -top-2 -right-2 w-6 h-6 bg-quentlex-green rounded-full flex items-center justify-center border-2 border-quentlex-white shadow-lg">
+                        {/* <div className="absolute -top-2 -right-2 w-6 h-6 bg-quentlex-green rounded-full flex items-center justify-center border-2 border-quentlex-white shadow-lg">
                           <Award className="w-3 h-3 text-quentlex-white" />
-                        </div>
+                        </div> */}
                       </div>
                       
                       <div>

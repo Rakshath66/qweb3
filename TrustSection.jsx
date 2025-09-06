@@ -123,7 +123,9 @@ const TrustSection = ({id}) => {
               <Star className="w-5 h-5 text-quentlex-navy" />
               <span className="text-quentlex-navy font-semibold">Advisory Board</span>
             </div>
-            <h3 className="ql-h3 text-center">Industry Leaders & Regulators</h3>
+            <h3 className="ql-h3 mx-auto text-center max-w-2xl">
+              Industry Leaders & Regulators
+            </h3>
           </div>
 
           {/* Scrolling Advisors Container */}
@@ -155,9 +157,9 @@ const TrustSection = ({id}) => {
                           <div className="absolute inset-0 rounded-2xl bg-quentlex-navy/20 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-500 animate-luxury-glow"></div>
                           
                           {/* VIP badge */}
-                          <div className="absolute -top-2 -right-2 w-8 h-8 bg-gold-gradient rounded-full flex items-center justify-center border-2 border-quentlex-white shadow-lg">
+                          {/* <div className="absolute -top-2 -right-2 w-8 h-8 bg-gold-gradient rounded-full flex items-center justify-center border-2 border-quentlex-white shadow-lg">
                             <Crown className="w-4 h-4 text-quentlex-white" />
-                          </div>
+                          </div> */}
                         </div>
                         
                         <div className="flex-1 pt-4">
@@ -201,9 +203,9 @@ const TrustSection = ({id}) => {
                           <div className="absolute inset-0 rounded-2xl bg-quentlex-navy/20 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-500 animate-luxury-glow"></div>
                           
                           {/* VIP badge */}
-                          <div className="absolute -top-2 -right-2 w-8 h-8 bg-gold-gradient rounded-full flex items-center justify-center border-2 border-quentlex-white shadow-lg">
+                          {/* <div className="absolute -top-2 -right-2 w-8 h-8 bg-gold-gradient rounded-full flex items-center justify-center border-2 border-quentlex-white shadow-lg">
                             <Crown className="w-4 h-4 text-quentlex-white" />
-                          </div>
+                          </div> */}
                         </div>
                         
                         <div className="flex-1 pt-4">

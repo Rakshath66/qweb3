@@ -28,12 +28,18 @@ const Header = () => {
           
           {/* Enhanced Navigation */}
           <nav className="hidden md:flex relative">
-            <ul className="flex space-x-2 bg-quentlex-white/30 rounded-2xl backdrop-blur-sm p-2 border border-quentlex-gold/20">
-              {[
+            <ul className="flex space-x-2 bg-quentlex-white/30 rounded-2xl backdrop-blur-sm p-2 border-quentlex-gold/20">
+              {/* {[
                 { href: "#problem", label: "Problem", icon: "⚡" },
                 { href: "#solutions", label: "Solutions", icon: "🔧" },
                 { href: "#compliance", label: "Compliance", icon: "✓" },
                 { href: "#backed-by", label: "Backed By", icon: "🏛️" }
+              ].map((item, index) => ( */}
+              {[
+                { href: "#problem", label: "Problem"},
+                { href: "#solutions", label: "Solutions"},
+                { href: "#compliance", label: "Compliance"},
+                { href: "#backed-by", label: "Backed By"}
               ].map((item, index) => (
                 <li key={index}>
                   <a 
