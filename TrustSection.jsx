@@ -142,7 +142,7 @@ const TrustSection = ({id}) => {
                 >
                   <div className={`relative ql-card-elevated hover:shadow-2xl transition-all duration-500 hover:scale-105 overflow-hidden bg-gradient-to-br ${advisor.gradient}`}>
                     {/* Premium border effect */}
-                    <div className="absolute top-0 left-0 w-full h-2 bg-navy-gradient"></div>
+                    {/* <div className="absolute top-0 left-0 w-full h-2 bg-navy-gradient"></div> */}
                     
                     <div className="relative z-10">
                       <div className="flex items-center gap-6 mb-4 pl-4">
@@ -188,7 +188,7 @@ const TrustSection = ({id}) => {
                 >
                   <div className={`relative ql-card-elevated hover:shadow-2xl transition-all duration-500 hover:scale-105 overflow-hidden bg-gradient-to-br ${advisor.gradient}`}>
                     {/* Premium border effect */}
-                    <div className="absolute top-0 left-0 w-full h-2 bg-navy-gradient"></div>
+                    {/* <div className="absolute top-0 left-0 w-full h-2 bg-navy-gradient"></div> */}
                     
                     <div className="relative z-10">
                       <div className="flex items-center gap-6 mb-4 pl-4">
