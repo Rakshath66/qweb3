@@ -13,7 +13,7 @@ const GatekeeperSection = () => {
             
             <div className="space-y-6">
               <div className="flex gap-4">
-                <CheckCircle className="w-6 h-6 ql-text-green flex-shrink-0 mt-1" />
+                <CheckCircle className="w-6 h-6 ql-text-gold flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="ql-h3 mb-2">Real-time compliance by jurisdiction</h3>
                   <p className="ql-body">
@@ -23,7 +23,7 @@ const GatekeeperSection = () => {
               </div>
               
               <div className="flex gap-4">
-                <FileText className="w-6 h-6 ql-text-green flex-shrink-0 mt-1" />
+                <FileText className="w-6 h-6 ql-text-gold flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="ql-h3 mb-2">Clear reasoning for pass, conditional, or fail</h3>
                   <p className="ql-body">
@@ -33,7 +33,7 @@ const GatekeeperSection = () => {
               </div>
               
               <div className="flex gap-4">
-                <Hash className="w-6 h-6 ql-text-green flex-shrink-0 mt-1" />
+                <Hash className="w-6 h-6 ql-text-gold flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="ql-h3 mb-2">Verification backed by signatures and on-chain anchors</h3>
                   <p className="ql-body">
@@ -49,7 +49,7 @@ const GatekeeperSection = () => {
             <div className="ql-card ql-card-elevated max-w-md w-full">
               <div className="text-center mb-6">
                 <h4 className="ql-h3 mb-2">Verification Status</h4>
-                <div className="inline-flex items-center gap-2 px-4 py-2 ql-bg-green/10 ql-text-green text-sm font-medium rounded-full">
+                <div className="inline-flex items-center gap-2 px-4 py-2 ql-bg-gold/10 ql-text-gold text-sm font-medium rounded-full">
                   <CheckCircle className="w-4 h-4" />
                   VALID
                 </div>
@@ -79,7 +79,7 @@ const GatekeeperSection = () => {
                   <p className="ql-caption mb-1">Blockchain Anchor</p>
                   <div className="flex items-center gap-2">
                     <span className="ql-body">Ethereum Block #18,234,567</span>
-                    <CheckCircle className="w-4 h-4 ql-text-green" />
+                    <CheckCircle className="w-4 h-4 ql-text-gold" />
                   </div>
                 </div>
               </div>

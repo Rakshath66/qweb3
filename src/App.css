@@ -239,8 +239,8 @@
   cursor: pointer;
   transition: all 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
   box-shadow: 
-    0 4px 12px rgba(59, 130, 246, 0.25),
-    0 4px 12px rgba(59, 130, 246, 0.25),
+    0 4px 12px rgba(48, 50, 53, 0.25),
+    /* 0 4px 12px rgba(59, 130, 246, 0.25), */
     0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 1rem;
   position: relative;
@@ -310,7 +310,7 @@
 }
 
 .ql-btn-verify {
-  background: linear-gradient(135deg, var(--ql-green) 0%, #059669 100%);
+  background: linear-gradient(135deg, var(--ql-gold) 0%, #c58a13 100%);
   color: var(--ql-white);
   font-family: var(--font-sans);
   font-weight: 500;
@@ -323,15 +323,15 @@
   transition: all 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
   font-size: 0.875rem;
   box-shadow: 
-    0 3px 8px rgba(16, 185, 129, 0.25),
+    0 3px 8px rgb(255, 255, 255),
     0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .ql-btn-verify:hover {
   transform: translateY(-1px) scale(1.02);
   box-shadow: 
-    0 6px 16px rgba(16, 185, 129, 0.35),
-    0 2px 6px rgba(0, 0, 0, 0.15);
+    0 3px 8px rgb(199, 142, 11),
+    0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* Premium Ripple Effect for Verify Button */

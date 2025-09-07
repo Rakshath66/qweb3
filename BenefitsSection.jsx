@@ -35,8 +35,8 @@ const BenefitsSection = ({id}) => {
           {benefits.map((benefit, index) => (
             <div key={index} className="ql-card text-center">
               <div className="flex justify-center mb-6">
-                <div className="w-16 h-16 rounded-full ql-bg-green/10 flex items-center justify-center">
-                  <benefit.icon className="w-8 h-8 ql-text-green" />
+                <div className="w-16 h-16 rounded-full ql-bg-gold/10 flex items-center justify-center">
+                  <benefit.icon className="w-8 h-8 ql-text-gold" />
                 </div>
               </div>
               
@@ -76,13 +76,13 @@ const BenefitsSection = ({id}) => {
                   fill="transparent"
                   strokeDasharray="251.2"
                   strokeDashoffset="30.14"
-                  className="ql-text-green ql-donut-animate"
+                  className="ql-text-gold ql-donut-animate"
                   strokeLinecap="round"
                 />
               </svg>
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-4xl font-bold ql-text-green">88</div>
+                  <div className="text-4xl font-bold ql-text-gold">88</div>
                   <div className="ql-caption ql-text-warm">out of 100</div>
                 </div>
               </div>
@@ -112,14 +112,14 @@ const BenefitsSection = ({id}) => {
                   <span className="ql-caption font-semibold">48 hours</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-3">
-                  <div className="ql-bg-green h-3 rounded-full" style={{ width: '11.9%' }}></div>
+                  <div className="ql-bg-gold h-3 rounded-full" style={{ width: '11.9%' }}></div>
                 </div>
               </div>
               
               <div className="pt-4 border-t">
                 <div className="flex items-center gap-2 justify-center">
-                  <TrendingUp className="w-5 h-5 ql-text-green" />
-                  <span className="ql-caption ql-text-green font-semibold">
+                  <TrendingUp className="w-5 h-5 ql-text-gold" />
+                  <span className="ql-caption ql-text-gold font-semibold">
                     88% faster than traditional methods
                   </span>
                 </div>

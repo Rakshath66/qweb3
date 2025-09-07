@@ -38,8 +38,8 @@ const SolutionSection = ({id}) => {
           {solutions.map((solution, index) => (
             <div key={index} className="text-center">
               <div className="flex justify-center mb-6">
-                <div className="w-20 h-20 rounded-full ql-bg-blue/10 flex items-center justify-center">
-                  <solution.icon className="w-10 h-10 ql-text-blue" />
+                <div className="w-20 h-20 rounded-full ql-bg-gold/10 flex items-center justify-center">
+                  <solution.icon className="w-10 h-10 ql-text-gold" />
                 </div>
               </div>
               
@@ -47,7 +47,7 @@ const SolutionSection = ({id}) => {
                 {solution.title}
               </h3>
               
-              <p className="ql-caption ql-text-blue mb-4 font-semibold">
+              <p className="ql-caption ql-text-gold mb-4 font-semibold">
                 {solution.subtitle}
               </p>
               
@@ -64,12 +64,12 @@ const SolutionSection = ({id}) => {
             <div className="flex items-center justify-between mb-6">
               <div>
                 <h4 className="ql-h3 mb-1">DeFi Protocol Alpha</h4>
-                <span className="inline-block px-3 py-1 ql-bg-blue/10 ql-text-blue text-sm font-medium rounded-full">
+                <span className="inline-block px-3 py-1 ql-bg-gold/10 ql-text-gold text-sm font-medium rounded-full">
                   United States
                 </span>
               </div>
               <div className="text-right">
-                <div className="inline-flex items-center gap-2 px-3 py-1 ql-bg-green/10 ql-text-green text-sm font-medium rounded-full">
+                <div className="inline-flex items-center gap-2 px-3 py-1 ql-bg-gold/10 ql-text-gold text-sm font-medium rounded-full">
                   <CheckCircle className="w-4 h-4" />
                   PASS
                 </div>
@@ -84,7 +84,7 @@ const SolutionSection = ({id}) => {
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2">
                 <div 
-                  className="ql-bg-green h-2 rounded-full ql-donut-animate" 
+                  className="ql-bg-gold h-2 rounded-full ql-donut-animate" 
                   style={{ width: '88%' }}
                 ></div>
               </div>
@@ -93,15 +93,15 @@ const SolutionSection = ({id}) => {
             {/* Key Checks */}
             <div className="space-y-3 mb-6">
               <div className="flex items-center gap-3">
-                <CheckCircle className="w-5 h-5 ql-text-green" />
+                <CheckCircle className="w-5 h-5 ql-text-gold" />
                 <span className="ql-body">KYC/AML procedures verified</span>
               </div>
               <div className="flex items-center gap-3">
-                <CheckCircle className="w-5 h-5 ql-text-green" />
+                <CheckCircle className="w-5 h-5 ql-text-gold" />
                 <span className="ql-body">Securities law compliance confirmed</span>
               </div>
               <div className="flex items-center gap-3">
-                <CheckCircle className="w-5 h-5 ql-text-green" />
+                <CheckCircle className="w-5 h-5 ql-text-gold" />
                 <span className="ql-body">Data protection measures adequate</span>
               </div>
             </div>
