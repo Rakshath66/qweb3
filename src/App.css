@@ -18,6 +18,7 @@
   --ql-blue: hsl(217, 91%, 60%);     /* #3B82F6 */
   --ql-green: hsl(162, 85%, 42%);    /* #10B981 */
   --ql-amber: hsl(38, 92%, 50%);     /* #F59E0B */
+  --ql-grey: hsl(216, 5%, 22%); 
   
   /* Neutrals */
   --ql-white: hsl(0, 0%, 100%);      /* #FFFFFF */
@@ -226,9 +227,9 @@
 }
 
 /* === LUXURY BUTTON SYSTEM === */
-
+/* #202837 #2563EB */
 .ql-btn-primary {
-  background: linear-gradient(135deg, var(--ql-blue) 0%, #2563EB 100%);
+  background: linear-gradient(135deg, var(--ql-grey) 0%, #202837 100%);
   color: var(--ql-white);
   font-family: var(--font-sans);
   font-weight: 500;
@@ -238,6 +239,7 @@
   cursor: pointer;
   transition: all 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
   box-shadow: 
+    0 4px 12px rgba(59, 130, 246, 0.25),
     0 4px 12px rgba(59, 130, 246, 0.25),
     0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 1rem;

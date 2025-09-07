@@ -57,10 +57,10 @@ const TrustSection = ({id}) => {
     <section id={id} className="ql-section bg-luxury-gradient">
       <div className="ql-container">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-quentlex-gold/10 rounded-full border border-quentlex-gold/20 mb-6">
+          {/* <div className="inline-flex items-center gap-2 px-4 py-2 bg-quentlex-gold/10 rounded-full border border-quentlex-gold/20 mb-6">
             <Crown className="w-5 h-5 text-quentlex-gold" />
             <span className="text-quentlex-gold font-semibold">Enterprise Grade</span>
-          </div>
+          </div> */}
           
           <h2 className="ql-h2 mx-auto mb-6">
             Backed by those who matter
